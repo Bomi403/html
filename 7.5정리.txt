@@ -69,6 +69,33 @@ placeholder : 안내문구
 
 pre: 서식 유지 태그
 
+del : 중간 선 (취소선)_strike동일함
+
+align : 가로정렬(왼쪽left 가운데 center 오른쪽 right)
+valign : 수직정렬(위 top 가운데 middle 아래 bottom)
+
+&nbsp; : 공백 1개
+&amp; : &
+&lt; : <
+&gt; : >
+
+ul : unordered list : 순서가 없는 목록
+ol : ordered list : 순서가 있는 목록
+속성 : type(1,a,I(로마),i(로마)) star=2(2부터 시작)
+
+dl : dt,dd
+
+a:링크
+ href :링크 이동
+ targe : 이동할 창
+             _slef :현재창(기본값) 
+                <a href="naver.com" targe="_self">
+             _blank : 새창
+             내부 창의 name 값
+    내부창은 같은 페이지 하부의 iframe
+      <iframe name="innerWindow" width="100% height="500" target="innerWindow"></iframe>
+: 이메일 발송  <A href="mailto:lyh@naver.com">이메일</a>
+
 -------------------------책------------------------------
 브라우저 - 자바스크립트 해석기
 (자바스크립트 런타임)
@@ -99,3 +126,7 @@ red, blue, green, yellow
  RGB   255, 0, 0
 ​16진수 ff 00 00
 (0~10,a,b,c,d,e,f)
+
+4.RGBA
+   A-알파채널(투명도 : 0~1)
+   0에 가까울수록 투명, 1에 가까울수록 불투명
