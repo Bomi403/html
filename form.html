@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+        <form method="POST" action="http://yonggyo.com/~webclass">
+            <input type="text" name="text" value="기본문장"><br>
+            <input type="radio" name="radio" checked><br>
+            <input type="checkbox" name="checkbox" checked><br>
+            <input type="password" name="password" value="123456"><br>
+            <input type="email" name="email" value="lyh071111@naver.com"><br>
+            <input type="number" name="number" value="10000"><br>
+            <input type="range" min='10' max='30' name="range" value="15"><br>
+            <input type="color" name="color" value="#ff0000"><br>
+            <input type="date" name="data" value="2021-07-05"><br>
+            문장여러줄입력<br>
+            <textarea name="textarea" rows="10" cols="30">여러줄 기본값</textarea><br>
+            다중선택(콤보박스)
+            <select name="select">
+                <option value="선택1">선택1</option>
+                <option value="선택2" selected>선택2</option>
+                <option value="선택3">선택3</option>
+            </select>
+            <br>
+            다중선택
+            <input type="text" list="flower" name="flower" value="장미">
+            <datalist id="flower">
+                <option value="장미"></option>
+                <option value="튤립"></option>
+                <option value="코스모스"></option>
+            </datalist>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
